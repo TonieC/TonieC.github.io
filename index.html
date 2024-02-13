@@ -5,22 +5,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Ganto mainlove ang mga programmer</title>
-  <link href="/style.css" rel="stylesheet" type="text/css"/>
-  <script src="/script.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <h1>Hi Shane</h1>
-        <p>hi HAHAHAHA so ayon nag puyat talaga ako para gawin to so straight to the point na, so can I ask you to go in Photobooth or wedding booth whichever you prefer or siguro better pag bothAHAHAHAHAHAHAHAH</p>
-        <button class="button">Yes</button>
-        <button class="button1">No</button>
+        <p>hi HAHAHAHA so ayon nag puyat talaga ako para gawin to so straight to the point na, so can I ask you to go in Photobooth or wedding booth whichever you prefer or siguro better pag bothAHAHAHAHAHAHAHAH so ayon just click the button below or maybe just send a reply to me sa messenger instead, <br> btw its okay if you decline I know naman na di ako worth it (hala sadboyHAHAHAHAHAHAHAHA) pero yun nga its okay to me naman yun lang</p>
+        <script src="script.js"></script>
+
+        <button class="button" onclick="myFunction()">Reply</button>
+
+        <p id="button1"></p>
+
+        <script>
+        function myFunction() {
+          var txt;
+          if (confirm("Choose one")) {
+            txt = "Thanks for accepting my request susulitin ko talaga tong araw na toHAHAHAHA thanks for making my day better";
+          } else {
+            txt = "I appreciate you taking time to read this message even if you declined";
+          }
+          document.getElementById("button1").innerHTML = txt;
+        }
+        </script>
         
-        <img class="myImages" id="image1" src="image1.jpeg" alt="Image 1">
-
-        <!-- Second Image -->
-        <img class="myImages" id="image2" src="image2.jpeg" alt="Image 2">
-
+    
 
 </body>
 
-</html>
+</html

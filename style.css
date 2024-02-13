@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    width: 100%;
+          text-align: center;
+              background: linear-gradient(to bottom, #FFC0CB, #FF69B4, #FF1493);
+  
+  }
+  
+  .protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1 {
+  font-family: "Protest Riot", sans-serif;
+  color: #ff002b;
+              text-shadow: 2px 2px 2px #000;
+  
+  }
+  p {
+          font-size: 16px;
+  font-family: "Protest Riot", sans-serif;
+  color: #bd0000;
+              text-shadow: 2px 2px 2px #ffffff;
+  
+  }
+  
+  .button {
+      background-color: #FF6B6B; /* Reddish pink color */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+    /* Hover effect */
+    .button:hover {
+      background-color: red; /* Lighter reddish pink color on hover */
+    }
+  
+  .button1 {
+      background-color: cyan; /* Reddish pink color */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+    /* Hover effect */
+    .button1:hover {
+      background-color: gray; /* Lighter reddish pink color on hover */
+    }
+  
+  .myImages {
+      display: none;
+      max-width: 100%;
+    }
